@@ -1,0 +1,393 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Arial, sans-serif;
+}
+
+/* Home Section */
+
+.home{
+    background-image: url(/images/ny.jpg);
+    background-size: cover;
+    width:100%;
+    height:700px;
+    margin-top:-477px;
+}
+
+.navbar{
+    background-color:black;
+    color:white;
+    padding:14.8px;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+.navbar ul{
+    display:flex;
+    list-style-type:none;
+    font-size:15px;
+    font-family:'Lato',sans-serif;
+    margin-left:-14px;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    text-align: center;
+    padding:15px 25px;
+}
+
+.navbar ul li a:hover{
+    background-color:rgb(184, 184, 165);
+    color:black; 
+}
+
+.fa-caret-down{
+    margin-left:5px;
+}
+
+.dropdown{
+    position: absolute;
+    background-color:white;
+    width:170px;
+    margin-top:15px;
+    list-style-type: none;
+    display: none;
+}
+
+.dropdown ul{
+    display:block;
+    
+}
+
+.dropdown li{
+    padding:5px;
+    width:170px;
+    margin-left:14px;
+}
+
+.dropdown a{
+    text-decoration: none;
+    color:black;
+    font-size:18px;
+}
+
+.dropdown ul li a{
+    color:black;
+    padding:5px 15px;
+}
+
+.dropdown ul li:hover{
+    background-color:rgb(184, 184, 165);
+}
+
+.navbar ul li:hover .dropdown{
+    display: block;
+}
+
+#search{
+    margin-left:1222%;
+}
+
+#search:hover{
+    background-color: red;
+    color:white;
+}
+
+.city{
+    margin-top: 39%;
+    color:white;
+    text-align:center;
+}
+
+.city h3{
+    position: absolute;
+    font-size:24px;
+    margin-top:41%;
+    margin-left:47%;
+}
+.city p{
+    position: absolute;
+    margin-top:20px;
+    font-size:15px;
+    margin-top:44.6%;
+    margin-left:39%;
+}
+
+/* Summary Section */
+
+.info{
+    text-align:center;
+    margin-top:100px;
+}
+
+.info h1{
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing:4px;
+}
+.info h6{
+    color:#857a7a;
+    font-weight:400;
+    font-size: 15px;
+    margin-top:20px;
+}
+
+.info p{
+    position:absolute;
+    margin-top:20px;
+    font-weight:100;
+    width:784px;
+    left:22.5%;
+    font-family:'Lato',sans-serif;
+    font-size: 15px;
+    text-align:left;
+    line-height:21px;
+}
+
+.cards{
+    display:flex;
+    margin-top:210px;
+    margin-left:250px;
+    padding-bottom:100px;
+}
+
+.cards-item{
+    text-align: center;
+    padding-left:100px;
+}
+
+.cards-item h5{
+    font-weight:400;
+    font-size:15px;
+}
+
+.cards-item img{
+    width:153.58px;
+    height:153.58px;
+    margin-top:20px;
+}
+
+/* Tour Dates Section */
+
+.tour-dates{
+    background-color:black;
+    text-align: center;
+    padding-bottom:100px;
+}
+
+.header{
+    padding-top:80px;
+    color:white;
+    font-size:30px;
+}
+
+.header h1{
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.header p{
+    padding-top:20px;
+    color:#919191;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.ticket-status{
+    background-color:white;
+    margin-top:40px;
+    margin-left:20%;
+    text-align:left;
+    width:60%;
+}
+
+.months{
+    padding-left:20px;
+    padding-top:10px;
+    color:#757575;
+    padding-bottom: 10px;
+    border-bottom:1px solid #DDDDDD;
+}
+
+.months:nth-child(3){
+    padding-bottom:10px;
+}
+
+.months button{
+    margin-left:20px;
+    color:white;
+    background-color:#F44336;
+    border:1px solid #F44336;
+    font-family:Lato;
+    text-align: center;
+    font-size:15px;
+    width:70px;
+    height:22px;
+}
+
+.months:nth-child(3) button{
+    border-radius:50%;
+    width:24.7px;
+    border:1px solid black;
+    background-color:black;
+    margin-left:82%;
+}
+
+.ticket-cards{
+    display:flex;
+    margin-top:40px;
+    text-align: left;
+    margin-left:19%;
+}
+
+.ticket-cards img{
+    width:275px;
+    height:183.98;
+    padding-left: 12px;
+}
+
+.city-info{
+    background-color: white;
+    margin-left:12px;
+    margin-top:-4px;
+    padding-top:20px;
+    padding-left: 20px;
+    padding-bottom:15px;
+}
+
+#date{
+    color:#919191;
+    margin-top: 10px;
+    font-weight:400;
+}
+
+.city-info p{
+    margin-top:18px;
+    width:240px;
+}
+
+.city-info button{
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    width:108px;
+    height:39px;
+    margin-top:18px;
+    font-size: 15px;
+}
+
+/* Contact Section */
+
+.contact{
+    text-align: center;
+    padding-bottom:100px;
+}
+
+.contact .header h1{
+    color:black;
+    font-size:30px;
+    font-weight:400;
+}
+
+.contact .header p{
+    color:#888585;
+    font-size:15px;
+    font-weight:400;
+}
+
+
+.info-city-form{
+    display:flex;
+    margin-top:50px;
+    margin-left:20%;
+}
+
+.info-item{
+    display:flex;
+    padding-top:5px;
+}
+
+.info-item i{
+    position:absolute;
+    margin-top:1.5px;
+}
+
+.info-item p{
+    font-size: 18px;
+    margin-left:40px;
+    font-family:'Lato',sans-serif;
+}
+
+.form{
+    margin-left:18%;
+}
+
+.form-item input{
+    width:184px;
+    height:41px;
+    padding:8px;
+    font-size:15px;
+    border:1px solid #CCCCCC;
+}
+
+.form span:nth-child(2){
+    margin-left: 10px;
+}
+
+.form-item:nth-child(3) input{
+    margin-top:5px;
+    width:100%;
+}
+
+.form-item:nth-child(4) button{
+    width:72px;
+    height:39px;
+    font-size:15px;
+    background-color: black;
+    color:white;
+    border:1px solid black;
+    margin-top:10px;
+    margin-left:310px;
+}
+
+/* Image Section */
+
+.image img{
+    width:100%;
+    background-size: cover;
+}
+
+/* Social Media Section */
+
+.social-media{
+    margin-top:60px;
+    padding-bottom:80px;
+}
+
+.social-media-item{
+    padding-left:1px;
+    font-size:25px;
+    display:inline;
+    position:relative;
+    top:50%;
+    left:43%;
+    transform:translate(-50%,-50%);
+    color:grey;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:25px;
+    margin-left:-42px;
+    color:#A0A0A0;
+}
+
+.text a{
+    margin-left:5px;
+}
